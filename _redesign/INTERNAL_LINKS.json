@@ -1,0 +1,182 @@
+[
+  {
+    "from": "/",
+    "answer": 1,
+    "anchor": "ремонт в новостройке",
+    "to": "/remont-v-novostroyke"
+  },
+  {
+    "from": "/",
+    "answer": 1,
+    "anchor": "ремонт вторичного жилья",
+    "to": "/remont-vtorichnogo-zhilya"
+  },
+  {
+    "from": "/",
+    "answer": 8,
+    "anchor": "необходимый комплект чертежей",
+    "to": "/design"
+  },
+  {
+    "from": "/remont-v-novostroyke",
+    "answer": 3,
+    "anchor": "на главной",
+    "to": "/"
+  },
+  {
+    "from": "/remont-v-novostroyke",
+    "answer": 4,
+    "anchor": "Дизайн-проект",
+    "to": "/design"
+  },
+  {
+    "from": "/remont-v-novostroyke",
+    "answer": 8,
+    "anchor": "ремонта по дизайн-проекту",
+    "to": "/elit-remont"
+  },
+  {
+    "from": "/remont-v-novostroyke",
+    "answer": 9,
+    "anchor": "ответах о ремонте",
+    "to": "/questions"
+  },
+  {
+    "from": "/remont-v-novostroyke",
+    "answer": 10,
+    "anchor": "галерею интерьеров",
+    "to": "/case"
+  },
+  {
+    "from": "/remont-vtorichnogo-zhilya",
+    "answer": 2,
+    "anchor": "Косметический ремонт",
+    "to": "/kosmeticheskiy-remont"
+  },
+  {
+    "from": "/remont-vtorichnogo-zhilya",
+    "answer": 2,
+    "anchor": "Капитальный ремонт",
+    "to": "/kap-remont"
+  },
+  {
+    "from": "/remont-vtorichnogo-zhilya",
+    "answer": 8,
+    "anchor": "Дизайн интерьера",
+    "to": "/design"
+  },
+  {
+    "from": "/remont-vtorichnogo-zhilya",
+    "answer": 9,
+    "anchor": "ответы о ремонте",
+    "to": "/questions"
+  },
+  {
+    "from": "/remont-vtorichnogo-zhilya",
+    "answer": 10,
+    "anchor": "галерее интерьеров",
+    "to": "/case"
+  },
+  {
+    "from": "/kosmeticheskiy-remont",
+    "answer": 10,
+    "anchor": "капитальный ремонт",
+    "to": "/kap-remont"
+  },
+  {
+    "from": "/kap-remont",
+    "answer": 2,
+    "anchor": "ремонта вторичного жилья",
+    "to": "/remont-vtorichnogo-zhilya"
+  },
+  {
+    "from": "/kap-remont",
+    "answer": 8,
+    "anchor": "дизайн-проект",
+    "to": "/design"
+  },
+  {
+    "from": "/elit-remont",
+    "answer": 9,
+    "anchor": "Мебель на заказ",
+    "to": "/mebel-na-zakaz"
+  },
+  {
+    "from": "/elit-remont",
+    "answer": 9,
+    "anchor": "умный дом",
+    "to": "/smart-house"
+  },
+  {
+    "from": "/elit-remont",
+    "answer": 10,
+    "anchor": "Авторский надзор",
+    "to": "/avtorski-nadzor"
+  },
+  {
+    "from": "/design",
+    "answer": 10,
+    "anchor": "Авторский надзор",
+    "to": "/avtorski-nadzor"
+  },
+  {
+    "from": "/design",
+    "answer": 10,
+    "anchor": "ремонт по дизайн-проекту",
+    "to": "/elit-remont"
+  },
+  {
+    "from": "/remont-domov",
+    "answer": 1,
+    "anchor": "строительство коттеджей",
+    "to": "/stroitelstvo-kottegey"
+  },
+  {
+    "from": "/stroitelstvo-kottegey",
+    "answer": 10,
+    "anchor": "дизайн интерьера",
+    "to": "/design"
+  },
+  {
+    "from": "/avtorski-nadzor",
+    "answer": 1,
+    "anchor": "дизайн-проекту",
+    "to": "/design"
+  },
+  {
+    "from": "/smart-house",
+    "answer": 2,
+    "anchor": "ремонте новостройки",
+    "to": "/remont-v-novostroyke"
+  },
+  {
+    "from": "/mebel-na-zakaz",
+    "answer": 2,
+    "anchor": "дизайн-проектом",
+    "to": "/design"
+  },
+  {
+    "from": "/questions",
+    "answer": 1,
+    "anchor": "ремонт в новостройке",
+    "to": "/remont-v-novostroyke"
+  },
+  {
+    "from": "/questions",
+    "answer": 1,
+    "anchor": "ремонт вторичного жилья",
+    "to": "/remont-vtorichnogo-zhilya"
+  },
+  {
+    "from": "/questions",
+    "answer": 8,
+    "anchor": "необходимый комплект чертежей",
+    "to": "/design"
+  },
+  {
+    "from": "/questions",
+    "answer": 10,
+    "anchor": "контактах",
+    "to": "/contacts"
+  }
+]

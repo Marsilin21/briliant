@@ -1,0 +1,56 @@
+
+> brilliant-monolit@1.0.0 test
+> node --test --test-concurrency=1 tests/*.test.mjs
+
+(node:42060) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ built admin UI logs in, edits a field, saves, publishes, previews and navigates panels (1775.4043ms)
+(node:28000) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ public pages preserve source assets, section order, logo files and readable SEO (646.4403ms)
+✔ source inaccuracies corrected without importing ceiling business details (36.5333ms)
+✔ private files and admin APIs are inaccessible without authentication (2.9823ms)
+✔ CSRF protection rejects missing or malformed token (11.5908ms)
+✔ draft, preview, publication, metadata and restoration share a consistent version (465.3895ms)
+✔ invalid content and logo replacement cannot be published (12.4354ms)
+✔ manager can edit drafts and notes but cannot publish, delete or change integrations (130.7431ms)
+✔ lead validation, honeypot, durable acceptance and deduplication (17.6953ms)
+✔ notifications fail independently and retry without losing a saved lead (11.4133ms)
+✔ integration secrets stay server side and external addresses are constrained (4.4862ms)
+✔ image upload validates bytes, optimizes pictures and rejects fake images (128.4233ms)
+✔ legacy URLs redirect to equivalents, sitemap uses HTTPS and unknown URL returns 404 (4.505ms)
+✔ SQLite backup produces a restorable consistent snapshot (19.5338ms)
+✔ sessions are revoked when an account is disabled (3.0228ms)
+(node:41456) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ each service has independent useful questions, preserved introduction and consistent offer (247.6737ms)
+✔ changing an offer updates home, service price and FAQ together without changing other services (33.8193ms)
+✔ project information has one source across galleries, escapes HTML, and preserves photos (47.506ms)
+✔ legacy migration preserves custom drafts, existing media, and immutable old versions (357.8954ms)
+✔ public form preserves service context and manager saves a brief without changing customer message (448.1314ms)
+(node:28240) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Tilda popup layout helpers and city map work without the legacy submission SDK or eval (92.0423ms)
+✔ lossless image delivery preserves source pixels, negotiates formats and honors cache validators (664.5748ms)
+✔ editorial upgrade preserves custom offer conditions, page copy and rollback history shape (17.5928ms)
+✔ specialist services do not inherit repair payment or execution and home scope stays consistent (190.6255ms)
+✔ production mode exposes indexable pages but keeps legal, admin, drafts and leads protected (193.8456ms)
+(node:33056) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ SEO plan validates hierarchy, evidence, measured zero and unsafe URLs (3.8242ms)
+✔ SEO workspace is private, role protected, revision checked and persists independently from publication (379.2947ms)
+✔ internal links publish and restore safely; sitemap uses only changed public page dates (1026.427ms)
+(node:42856) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ semantic destinations are unique and new landing pages are reachable through contextual HTML links (547.8703ms)
+✔ new landings address different starting conditions and do not inherit the capital repair price (18.0235ms)
+✔ internal linking cannot turn editor HTML into executable markup and follows edited text (0.2958ms)
+✔ SEO expansion preserves edited texts, prices and noindex while importing new pages and untouched defaults (25.9303ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10576.7279

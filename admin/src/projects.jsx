@@ -1,0 +1,7 @@
+import React,{useState} from 'react';
+import {projectStatuses,projectText} from '../../site/projects.mjs';
+export function Projects({content,edit}){
+ const [id,setId]=useState('silver'),p=content.projects[id];
+ const labels={title:'Объект и адрес',city:'Город',area:'Площадь',areaKind:'Что измерено · комната, квартира или дом',description:'Описание интерьера',scope:'Что выполнено компанией',period:'Сроки или дата завершения'};
+ return <div className="card"><h2>Сведения об объектах</h2><p>Эти данные используются на главной и в портфолио. Существующие названия, площади и фотографии сохранены. Неуказанные в исходном сайте сведения не заполнены автоматически.</p><label>Объект<select value={id} onChange={e=>setId(e.target.value)}>{Object.entries(content.projects).map(([k,v])=><option key={k} value={k}>{v.title}</option>)}</select></label><div className="columns">{Object.entries(labels).map(([k,label])=><label key={k}>{label}<input value={p[k]} onChange={e=>edit(c=>{c.projects[id][k]=e.target.value;return c;})}/></label>)}</div><label>Тип материала<select value={p.status} onChange={e=>edit(c=>{c.projects[id].status=e.target.value;return c;})}>{Object.entries(projectStatuses).map(([k,v])=><option key={k} value={k}>{v}</option>)}</select></label><div className="search-preview"><small>{projectText(p,'area')}</small><strong>{projectText(p,'title')}</strong><p>{projectText(p,'description')}</p></div><small>Подпись: {projectText(p,'description').length} / 280 символов. Пустые дополнительные поля на сайте не показываются.</small></div>;
+}

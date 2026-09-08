@@ -1,0 +1,17 @@
+import {mkdtempSync,readFileSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {createApp} from '../server/app.mjs';
+const origin='http://127.0.0.1:41773';
+const app=await createApp({dataDir:mkdtempSync(join(tmpdir(),'monolit-research-qa-')),password:'Isolated-Research-QA-2026!',worker:false,origins:[origin]});
+await app.ready();
+const login=await app.inject({method:'POST',url:'/api/auth/login',headers:{origin},payload:{login:'admin',password:'Isolated-Research-QA-2026!'}});
+if(login.statusCode!==200)throw Error('QA login failed');
+const headers={origin,cookie:login.cookies.map(c=>c.name+'='+c.value).join('; '),'x-csrf-token':login.json().csrf};
+const current=(await app.inject({url:'/api/admin/seo/workspace',headers})).json();
+const data=JSON.parse(readFileSync('_redesign/SEO_WORKSPACE_MEASURED.json','utf8'));
+const saved=await app.inject({method:'PUT',url:'/api/admin/seo/workspace',headers,payload:{data,revision:current.revision}});
+if(saved.statusCode!==200)throw Error('QA import failed');
+await app.listen({host:'127.0.0.1',port:41773});
+console.log('Isolated research QA server: '+origin+'; PID '+process.pid);
+for(const signal of ['SIGINT','SIGTERM'])process.once(signal,async()=>{await app.close();process.exit(0);});

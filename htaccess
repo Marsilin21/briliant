@@ -1,0 +1,56 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page106667786.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^main$ page106667786.html [NC]
+RewriteRule ^main/$ page106667786.html [NC]
+
+RewriteRule ^rules$ page111377176.html [NC]
+RewriteRule ^rules/$ page111377176.html [NC]
+
+RewriteRule ^design$ page114132466.html [NC]
+RewriteRule ^design/$ page114132466.html [NC]
+
+RewriteRule ^info$ page114132856.html [NC]
+RewriteRule ^info/$ page114132856.html [NC]
+
+RewriteRule ^contacts$ page114143906.html [NC]
+RewriteRule ^contacts/$ page114143906.html [NC]
+
+RewriteRule ^case$ page114151676.html [NC]
+RewriteRule ^case/$ page114151676.html [NC]
+
+RewriteRule ^questions$ page115133696.html [NC]
+RewriteRule ^questions/$ page115133696.html [NC]
+
+RewriteRule ^kosmeticheskiy-remont$ page115135716.html [NC]
+RewriteRule ^kosmeticheskiy-remont/$ page115135716.html [NC]
+
+RewriteRule ^kap-remont$ page115136766.html [NC]
+RewriteRule ^kap-remont/$ page115136766.html [NC]
+
+RewriteRule ^elit-remont$ page115137346.html [NC]
+RewriteRule ^elit-remont/$ page115137346.html [NC]
+
+RewriteRule ^remont-domov$ page115137936.html [NC]
+RewriteRule ^remont-domov/$ page115137936.html [NC]
+
+RewriteRule ^stroitelstvo-kottegey$ page115138566.html [NC]
+RewriteRule ^stroitelstvo-kottegey/$ page115138566.html [NC]
+
+RewriteRule ^avtorski-nadzor$ page115139206.html [NC]
+RewriteRule ^avtorski-nadzor/$ page115139206.html [NC]
+
+RewriteRule ^smart-house$ page115139476.html [NC]
+RewriteRule ^smart-house/$ page115139476.html [NC]
+
+RewriteRule ^mebel-na-zakaz$ page115140096.html [NC]
+RewriteRule ^mebel-na-zakaz/$ page115140096.html [NC]
+
+

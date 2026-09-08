@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-09-08T18:40:34.840Z",
+  "beforeRevision": 1,
+  "afterRevision": 2,
+  "measured": 103,
+  "nonzero": 35,
+  "researchMeasurements": 103,
+  "serpSamples": 15,
+  "pairComparisons": 105,
+  "placementsUnchanged": true,
+  "siteContentUnchanged": true,
+  "sourceTranscription": {
+    "wordstatHash": "317bc8f4",
+    "serpHash": "5e03e475",
+    "method": "FNV-1a over UTF-16 code units; compared with the same ordered fields in the persistent browser capture. Evidence integrity check, not a cryptographic signature."
+  },
+  "readbackMatches": true,
+  "automatedTests": {
+    "passed": 32,
+    "failed": 0,
+    "newCoverage": "Research view, same-query guard, changing query comparison"
+  },
+  "browserQa": {
+    "environment": "Isolated temporary database, port 41773",
+    "initialOverlap": "8/10",
+    "changedOverlap": "0/10",
+    "listedUrls": 20,
+    "measurementTotal": "103/103",
+    "designFrequencies": [
+      50,
+      7,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1261,
+      192
+    ],
+    "horizontalOverflow": false,
+    "desktopVisuallyInspected": true
+  },
+  "liveAudit": {
+    "generatedAt": "2026-09-08T18:45:53.485Z",
+    "pages": 17,
+    "assets": 111,
+    "contextLinks": 30,
+    "errors": []
+  }
+}

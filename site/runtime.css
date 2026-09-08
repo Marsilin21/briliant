@@ -1,0 +1,10 @@
+:where(h1[data-seo-heading],h2[data-seo-heading],h3[data-seo-heading]){margin:0;font-size:inherit;font-weight:inherit}
+.monolit-hp{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important}
+.monolit-form-status{font:inherit;line-height:1.5;margin-top:12px;color:inherit}
+.monolit-form-status:empty{display:none}
+.monolit-cookie{position:fixed;z-index:999999;bottom:20px;left:20px;max-width:420px;background:#242424;color:#fff;border:1px solid #d4ad72;padding:20px;font:14px/1.5 Arial,sans-serif;box-shadow:0 8px 40px #0005}
+.monolit-cookie button{min-height:44px;padding:10px 16px;border:1px solid #d4ad72;background:#d4ad72;color:#171717;margin:10px 8px 0 0;cursor:pointer}
+.monolit-cookie button:last-child{background:transparent;color:white}
+.monolit-preview-note{position:fixed;bottom:0;left:0;right:0;background:#242424;color:#d4ad72;text-align:center;z-index:999999;padding:10px;font:14px Arial,sans-serif}
+@media(max-width:480px){.monolit-cookie{left:12px;right:12px;bottom:12px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.t-animate{opacity:1!important;transform:none!important}}

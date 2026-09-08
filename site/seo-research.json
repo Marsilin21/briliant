@@ -1,0 +1,3307 @@
+{
+  "checkedAt": "2026-09-08",
+  "methodology": [
+    "Wordstat: 103 формулировки — 88 из исходной карты и 15 дополнительных коротких запросов. Регион: город Нижний Новгород, код 47; все устройства; «Топы запросов». Снят счётчик над таблицей для запроса в двойных кавычках. Это фразовая частотность с фиксацией числа слов, без фиксации словоформ и порядка слов. Значения строк таблицы с более широкой статистикой не подставлялись вместо счётчика.",
+    "Дата проверки: 8 сентября 2026. Сервис показывал два интервала: 08.08–06.09.2026 и 07.08–07.09.2026; у каждого измерения сохранён его фактический период. Числа разных интервалов не трактуются как точное синхронное сравнение. Источники открывают текущий Wordstat; исторические числа сохранены в снимке.",
+    "0 означает отсутствие показанного спроса для конкретной формулировки, оператора, региона и периода. Это не доказательство отсутствия спроса на услугу. 35 из 103 проверенных формулировок имеют ненулевой счётчик. Частотности не суммируются: запросы пересекаются; запросы не равны людям, переходам или заявкам.",
+    "Яндекс: 15 формулировок, по 10 первых различных обычных прямых URL; 105 попарных сравнений. Реклама, ссылки счётчиков и специальные виджеты исключены. Обычные ссылки на каталоги, карты и соцсети включены. Для четырёх выборок десятка дополнена со второй страницы с удалением повторов.",
+    "Сравниваются URL с сохранением пути и параметров. Протокол, www, якорь и завершающий слеш не различаются. Совпадения сайтов посчитаны отдельно: один сайт может иметь разные релевантные страницы. Пересечение — число общих URL из 10; это не коэффициент Жаккара.",
+    "Поиск выполнен в одной текущей авторизованной desktop-сессии с lr=47. Это региональное предпочтение, а не гарантия деперсонализированной выдачи: возможны влияния аккаунта и IP. Один снимок Яндекса не заменяет мониторинг позиций и не описывает Google. Решения учитывают задачу посетителя и реальный продукт, а не универсальный порог совпадений."
+  ],
+  "decisions": [
+    {
+      "pages": [
+        "resale"
+      ],
+      "a": "resale",
+      "b": "resale_variant",
+      "action": "Одна страница для «вторичного жилья» и «вторички».",
+      "reason": "Совпадают 8 из 10 URL. Обе формулировки решают одну задачу: ремонт уже эксплуатировавшейся квартиры. Отдельную страницу под синоним не создавать.",
+      "overlap": 8,
+      "paths": [
+        "/remont-vtorichnogo-zhilya"
+      ]
+    },
+    {
+      "pages": [
+        "capital"
+      ],
+      "a": "capital",
+      "b": "capital_variant",
+      "action": "Одна страница для «капитального ремонта» и «капремонта».",
+      "reason": "Совпадают 5 из 10 URL. Сокращённая формулировка также приводит к фонду капремонта общего имущества: в тексте явно говорить о ремонте внутри квартиры.",
+      "overlap": 5,
+      "paths": [
+        "/kap-remont"
+      ]
+    },
+    {
+      "pages": [
+        "premium"
+      ],
+      "a": "premium",
+      "b": "premium_variant",
+      "action": "Дизайнерский ремонт и реализация дизайн-проекта — одна страница /elit-remont.",
+      "reason": "Совпадают 4 из 10 URL; общий результат — выполненные по проекту работы. Не создавать дополнительные страницы «премиальный» и «элитный» только под эпитеты.",
+      "overlap": 4,
+      "paths": [
+        "/elit-remont"
+      ]
+    },
+    {
+      "pages": [
+        "resale",
+        "capital"
+      ],
+      "a": "capital",
+      "b": "resale",
+      "action": "Сохранить отдельные страницы вторички и капитального ремонта.",
+      "reason": "В этой выборке нет общих URL, хотя есть 6 общих сайтов. Вторичка — исходное состояние и решение, что сохранить; капитальный ремонт — глубокий объём работ. Ссылаться между страницами как между сценарием и вариантом работ.",
+      "overlap": 0,
+      "paths": [
+        "/remont-vtorichnogo-zhilya",
+        "/kap-remont"
+      ]
+    },
+    {
+      "pages": [
+        "newbuild",
+        "capital"
+      ],
+      "a": "capital",
+      "b": "newbuild",
+      "action": "Сохранить страницу новостройки с конкретными вариантами исходной отделки.",
+      "reason": "Нет общих URL. Полезность страницы — приёмка состояния, без отделки / white box, проверка работ застройщика и последовательность подготовки. Не обещать отдельный высокий трафик по одной низкочастотной фразе.",
+      "overlap": 0,
+      "paths": [
+        "/remont-v-novostroyke",
+        "/kap-remont"
+      ]
+    },
+    {
+      "pages": [
+        "cosmetic",
+        "capital"
+      ],
+      "a": "capital",
+      "b": "cosmetic",
+      "action": "Косметический и капитальный ремонт оставить разными услугами.",
+      "reason": "Нет общих URL. Нужны ясные границы: обновление покрытий и ограниченные работы против глубокой подготовки и согласованной замены инженерии.",
+      "overlap": 0,
+      "paths": [
+        "/kosmeticheskiy-remont",
+        "/kap-remont"
+      ]
+    },
+    {
+      "pages": [
+        "design",
+        "premium"
+      ],
+      "a": "design",
+      "b": "premium",
+      "action": "Разделить создание дизайн-проекта и выполнение ремонта.",
+      "reason": "Нет общих URL. На /design результат — документация и решения; на /elit-remont — реализация. Между ними нужна переходная ссылка, а не повтор одинакового предложения.",
+      "overlap": 0,
+      "paths": [
+        "/design",
+        "/elit-remont"
+      ]
+    },
+    {
+      "pages": [
+        "design",
+        "supervision"
+      ],
+      "a": "design",
+      "b": "supervision",
+      "action": "Авторский надзор сохранить отдельной услугой.",
+      "reason": "Нет общих URL; региональная фраза «авторский надзор» имеет 17 запросов. Разграничить соответствие проекту, технический контроль и закупки; эти обязанности нельзя обещать автоматически.",
+      "overlap": 0,
+      "paths": [
+        "/design",
+        "/avtorski-nadzor"
+      ]
+    },
+    {
+      "pages": [
+        "houses",
+        "construction"
+      ],
+      "a": "houses",
+      "b": "construction",
+      "action": "Ремонт существующего дома и строительство дома оставить раздельно.",
+      "reason": "Нет общих URL. Отличаются исходные данные, объём, этапы и расчёт цены. Частотность общего «строительство домов» не равна числу заказов коттеджей компании.",
+      "overlap": 0,
+      "paths": [
+        "/remont-domov",
+        "/stroitelstvo-kottegey"
+      ]
+    },
+    {
+      "pages": [
+        "home"
+      ],
+      "a": "home",
+      "b": "home_variant",
+      "action": "Общие запросы ремонта и ремонта под ключ оставить на главной.",
+      "reason": "Совпадают лишь 2 URL, но 8 сайтов; большую часть выборки составляют каталоги с отдельными фильтрами. Низкое пересечение само по себе не повод создавать дубликат главной. «Под ключ» раскрыть составом работ и исключениями.",
+      "overlap": 2,
+      "paths": [
+        "/"
+      ]
+    },
+    {
+      "pages": [
+        "design"
+      ],
+      "a": "design",
+      "b": "design_variant",
+      "action": "Дизайн интерьера и дизайн-проект квартиры пока оставить на /design.",
+      "reason": "Обе формулировки относятся к результатам одной предлагаемой услуги. Дополнительная посадочная оправдана только отдельным продуктом, составом и доказательствами; одной разницы выдачи недостаточно.",
+      "overlap": 2,
+      "paths": [
+        "/design"
+      ]
+    }
+  ],
+  "wordstat": {
+    "checkedAt": "2026-09-08",
+    "method": "Authenticated Wordstat UI. Top queries, city 47, all devices. Quoted phrase headline count; no word-form or word-order fixation. Each displayed period preserved. Counts are requests, not visitors or leads. Do not sum overlapping queries.",
+    "measurements": [
+      {
+        "id": "home-0",
+        "page": "home",
+        "query": "ремонт квартир нижний новгород",
+        "frequency": 139,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт квартир нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "home-1",
+        "page": "home",
+        "query": "ремонт квартир под ключ нижний новгород",
+        "frequency": 95,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт квартир под ключ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "home-2",
+        "page": "home",
+        "query": "комплексный ремонт квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"комплексный ремонт квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "home-3",
+        "page": "home",
+        "query": "ремонт квартир цена нижний новгород",
+        "frequency": 3,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт квартир цена нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "home-4",
+        "page": "home",
+        "query": "стоимость ремонта квартиры за м2 нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость ремонта квартиры за м2 нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%B7%D0%B0%20%D0%BC2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "home-5",
+        "page": "home",
+        "query": "ремонт квартиры под ключ с материалами нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт квартиры под ключ с материалами нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D1%81%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC%D0%B8%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "home-6",
+        "page": "home",
+        "query": "ремонт однокомнатной квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт однокомнатной квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "home-7",
+        "page": "home",
+        "query": "ремонт двухкомнатной квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт двухкомнатной квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B4%D0%B2%D1%83%D1%85%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "home-8",
+        "page": "home",
+        "query": "ремонт квартиры студии нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт квартиры студии нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "newbuild-0",
+        "page": "newbuild",
+        "query": "ремонт квартиры в новостройке нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт квартиры в новостройке нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%B2%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "newbuild-1",
+        "page": "newbuild",
+        "query": "ремонт новостройки под ключ нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт новостройки под ключ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "newbuild-2",
+        "page": "newbuild",
+        "query": "отделка квартиры в новостройке нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"отделка квартиры в новостройке нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%B2%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "newbuild-3",
+        "page": "newbuild",
+        "query": "ремонт квартиры без отделки нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт квартиры без отделки нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%B1%D0%B5%D0%B7%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "newbuild-4",
+        "page": "newbuild",
+        "query": "ремонт квартиры с предчистовой отделкой нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт квартиры с предчистовой отделкой нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D1%87%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "newbuild-5",
+        "page": "newbuild",
+        "query": "ремонт white box нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт white box нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20white%20box%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "newbuild-6",
+        "page": "newbuild",
+        "query": "стоимость ремонта новостройки нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость ремонта новостройки нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "resale-0",
+        "page": "resale",
+        "query": "ремонт вторичного жилья нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт вторичного жилья нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B6%D0%B8%D0%BB%D1%8C%D1%8F%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "resale-1",
+        "page": "resale",
+        "query": "ремонт квартиры вторичка нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт квартиры вторичка нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "resale-2",
+        "page": "resale",
+        "query": "ремонт старой квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт старой квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%B9%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "resale-3",
+        "page": "resale",
+        "query": "ремонт вторички под ключ нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт вторички под ключ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B8%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "resale-4",
+        "page": "resale",
+        "query": "стоимость ремонта вторичной квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость ремонта вторичной квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "resale-5",
+        "page": "resale",
+        "query": "ремонт квартиры с демонтажом нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт квартиры с демонтажом нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D1%81%20%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BE%D0%BC%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "cosmetic-0",
+        "page": "cosmetic",
+        "query": "косметический ремонт квартиры нижний новгород",
+        "frequency": 2,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"косметический ремонт квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "cosmetic-1",
+        "page": "cosmetic",
+        "query": "косметический ремонт цена за м2 нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"косметический ремонт цена за м2 нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B7%D0%B0%20%D0%BC2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "cosmetic-2",
+        "page": "cosmetic",
+        "query": "обновление отделки квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"обновление отделки квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "cosmetic-3",
+        "page": "cosmetic",
+        "query": "косметический ремонт под ключ нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"косметический ремонт под ключ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "cosmetic-4",
+        "page": "cosmetic",
+        "query": "стоимость косметического ремонта квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость косметического ремонта квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "capital-0",
+        "page": "capital",
+        "query": "капитальный ремонт квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"капитальный ремонт квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "capital-1",
+        "page": "capital",
+        "query": "капремонт квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"капремонт квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%B0%D0%BF%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "capital-2",
+        "page": "capital",
+        "query": "капитальный ремонт под ключ нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"капитальный ремонт под ключ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "capital-3",
+        "page": "capital",
+        "query": "капитальный ремонт цена за м2 нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"капитальный ремонт цена за м2 нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B7%D0%B0%20%D0%BC2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "capital-4",
+        "page": "capital",
+        "query": "ремонт квартиры с заменой электрики и сантехники нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт квартиры с заменой электрики и сантехники нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D1%81%20%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B9%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D0%BA%D0%B8%20%D0%B8%20%D1%81%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "capital-5",
+        "page": "capital",
+        "query": "стоимость капитального ремонта квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость капитального ремонта квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "premium-0",
+        "page": "premium",
+        "query": "дизайнерский ремонт квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"дизайнерский ремонт квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "premium-1",
+        "page": "premium",
+        "query": "элитный ремонт квартир нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"элитный ремонт квартир нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%8D%D0%BB%D0%B8%D1%82%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "premium-2",
+        "page": "premium",
+        "query": "ремонт по дизайн проекту нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт по дизайн проекту нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "premium-3",
+        "page": "premium",
+        "query": "премиальный ремонт квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"премиальный ремонт квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "premium-4",
+        "page": "premium",
+        "query": "стоимость дизайнерского ремонта нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость дизайнерского ремонта нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "premium-5",
+        "page": "premium",
+        "query": "реализация дизайн проекта квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"реализация дизайн проекта квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "design-0",
+        "page": "design",
+        "query": "дизайн интерьера нижний новгород",
+        "frequency": 50,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"дизайн интерьера нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "design-1",
+        "page": "design",
+        "query": "дизайн проект квартиры нижний новгород",
+        "frequency": 7,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"дизайн проект квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "design-2",
+        "page": "design",
+        "query": "дизайн интерьера цена за м2 нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"дизайн интерьера цена за м2 нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B7%D0%B0%20%D0%BC2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "design-3",
+        "page": "design",
+        "query": "заказать дизайн проект квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"заказать дизайн проект квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "design-4",
+        "page": "design",
+        "query": "планировочное решение квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"планировочное решение квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BE%D1%87%D0%BD%D0%BE%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "design-5",
+        "page": "design",
+        "query": "рабочие чертежи для ремонта квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"рабочие чертежи для ремонта квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B5%20%D1%87%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "design-6",
+        "page": "design",
+        "query": "дизайн проект дома нижний новгород",
+        "frequency": 1,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"дизайн проект дома нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "houses-0",
+        "page": "houses",
+        "query": "ремонт домов нижний новгород",
+        "frequency": 8,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт домов нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "houses-1",
+        "page": "houses",
+        "query": "ремонт коттеджей нижний новгород",
+        "frequency": 2,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт коттеджей нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B5%D0%B9%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "houses-2",
+        "page": "houses",
+        "query": "внутренняя отделка дома нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"внутренняя отделка дома нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "houses-3",
+        "page": "houses",
+        "query": "ремонт загородного дома под ключ нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"ремонт загородного дома под ключ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B7%D0%B0%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "houses-4",
+        "page": "houses",
+        "query": "стоимость отделки коттеджа нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость отделки коттеджа нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "construction-0",
+        "page": "construction",
+        "query": "строительство коттеджей нижний новгород",
+        "frequency": 4,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"строительство коттеджей нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B5%D0%B9%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "construction-1",
+        "page": "construction",
+        "query": "строительство дома под ключ нижний новгород",
+        "frequency": 42,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"строительство дома под ключ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "construction-2",
+        "page": "construction",
+        "query": "строительство коттеджа цена нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"строительство коттеджа цена нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B0%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "construction-3",
+        "page": "construction",
+        "query": "стоимость строительства дома за м2 нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость строительства дома за м2 нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%B7%D0%B0%20%D0%BC2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "construction-4",
+        "page": "construction",
+        "query": "строительство загородного дома нижний новгород",
+        "frequency": 2,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"строительство загородного дома нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%B7%D0%B0%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "supervision-0",
+        "page": "supervision",
+        "query": "авторский надзор нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"авторский надзор нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "supervision-1",
+        "page": "supervision",
+        "query": "авторский надзор дизайнера нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"авторский надзор дизайнера нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "supervision-2",
+        "page": "supervision",
+        "query": "стоимость авторского надзора нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"стоимость авторского надзора нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "supervision-3",
+        "page": "supervision",
+        "query": "сопровождение дизайн проекта нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"сопровождение дизайн проекта нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "supervision-4",
+        "page": "supervision",
+        "query": "авторский надзор за ремонтом квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"авторский надзор за ремонтом квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%20%D0%B7%D0%B0%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%BC%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "smart-0",
+        "page": "smart",
+        "query": "умный дом нижний новгород",
+        "frequency": 18,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"умный дом нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%83%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "smart-1",
+        "page": "smart",
+        "query": "установка умного дома нижний новгород",
+        "frequency": 1,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"установка умного дома нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D1%83%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "smart-2",
+        "page": "smart",
+        "query": "умный дом квартира цена нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"умный дом квартира цена нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%83%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "smart-3",
+        "page": "smart",
+        "query": "проектирование умного дома нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"проектирование умного дома нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%83%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "smart-4",
+        "page": "smart",
+        "query": "автоматизация квартиры нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"автоматизация квартиры нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "smart-5",
+        "page": "smart",
+        "query": "умный дом для коттеджа нижний новгород",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"умный дом для коттеджа нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%83%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "furniture-0",
+        "page": "furniture",
+        "query": "мебель на заказ нижний новгород",
+        "frequency": 138,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"мебель на заказ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "furniture-1",
+        "page": "furniture",
+        "query": "встроенная мебель на заказ нижний новгород",
+        "frequency": 8,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"встроенная мебель на заказ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "furniture-2",
+        "page": "furniture",
+        "query": "кухня на заказ нижний новгород",
+        "frequency": 277,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"кухня на заказ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D1%83%D1%85%D0%BD%D1%8F%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "furniture-3",
+        "page": "furniture",
+        "query": "шкаф на заказ нижний новгород",
+        "frequency": 52,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"шкаф на заказ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%88%D0%BA%D0%B0%D1%84%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "furniture-4",
+        "page": "furniture",
+        "query": "гардеробная на заказ нижний новгород",
+        "frequency": 8,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"гардеробная на заказ нижний новгород\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B3%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "faq-0",
+        "page": "faq",
+        "query": "с чего начать ремонт квартиры",
+        "frequency": 5,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"с чего начать ремонт квартиры\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%20%D1%87%D0%B5%D0%B3%D0%BE%20%D0%BD%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "faq-1",
+        "page": "faq",
+        "query": "как составляется смета на ремонт квартиры",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"как составляется смета на ремонт квартиры\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%B0%D0%BA%20%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F%20%D1%81%D0%BC%D0%B5%D1%82%D0%B0%20%D0%BD%D0%B0%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "faq-2",
+        "page": "faq",
+        "query": "что входит в ремонт квартиры под ключ",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"что входит в ремонт квартиры под ключ\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%87%D1%82%D0%BE%20%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B2%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "faq-3",
+        "page": "faq",
+        "query": "нужен ли дизайн проект для ремонта",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"нужен ли дизайн проект для ремонта\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D0%BB%D0%B8%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "faq-4",
+        "page": "faq",
+        "query": "как принимать ремонт квартиры",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"как принимать ремонт квартиры\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%B0%D0%BA%20%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D1%8C%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "faq-5",
+        "page": "faq",
+        "query": "как оплачиваются материалы при ремонте",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"как оплачиваются материалы при ремонте\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%B0%D0%BA%20%D0%BE%D0%BF%D0%BB%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D1%8E%D1%82%D1%81%D1%8F%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%BF%D1%80%D0%B8%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B5%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "faq-6",
+        "page": "faq",
+        "query": "чем авторский надзор отличается от технического",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"чем авторский надзор отличается от технического\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%87%D0%B5%D0%BC%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%20%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%BE%D1%82%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "works-0",
+        "page": "works",
+        "query": "бриллиант монолит портфолио",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"бриллиант монолит портфолио\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%20%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "works-1",
+        "page": "works",
+        "query": "бриллиант монолит проекты",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"бриллиант монолит проекты\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "works-2",
+        "page": "works",
+        "query": "фото интерьеров бриллиант монолит",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"фото интерьеров бриллиант монолит\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%84%D0%BE%D1%82%D0%BE%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%BE%D0%B2%20%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "about-0",
+        "page": "about",
+        "query": "бриллиант монолит",
+        "frequency": 2,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"бриллиант монолит\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "about-1",
+        "page": "about",
+        "query": "компания бриллиант монолит",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"компания бриллиант монолит\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "about-2",
+        "page": "about",
+        "query": "бриллиант монолит отзывы",
+        "frequency": 2,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"бриллиант монолит отзывы\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%20%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "contacts-0",
+        "page": "contacts",
+        "query": "бриллиант монолит контакты",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"бриллиант монолит контакты\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "contacts-1",
+        "page": "contacts",
+        "query": "бриллиант монолит телефон",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"бриллиант монолит телефон\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "contacts-2",
+        "page": "contacts",
+        "query": "бриллиант монолит адрес",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "07.08.2026 – 07.09.2026",
+        "operator": "\"бриллиант монолит адрес\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%20%D0%BC%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-home-0",
+        "page": "home",
+        "query": "ремонт квартир",
+        "frequency": 219,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт квартир\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-newbuild-1",
+        "page": "newbuild",
+        "query": "ремонт в новостройке",
+        "frequency": 1,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт в новостройке\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-resale-2",
+        "page": "resale",
+        "query": "ремонт вторичного жилья",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт вторичного жилья\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B6%D0%B8%D0%BB%D1%8C%D1%8F%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-resale-3",
+        "page": "resale",
+        "query": "ремонт вторички",
+        "frequency": 4,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт вторички\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B8%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-cosmetic-4",
+        "page": "cosmetic",
+        "query": "косметический ремонт квартиры",
+        "frequency": 6,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"косметический ремонт квартиры\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-capital-5",
+        "page": "capital",
+        "query": "капитальный ремонт квартиры",
+        "frequency": 6,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"капитальный ремонт квартиры\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-premium-6",
+        "page": "premium",
+        "query": "дизайнерский ремонт",
+        "frequency": 3,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"дизайнерский ремонт\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-premium-7",
+        "page": "premium",
+        "query": "ремонт по дизайн проекту",
+        "frequency": 0,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт по дизайн проекту\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-design-8",
+        "page": "design",
+        "query": "дизайн интерьера",
+        "frequency": 1261,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"дизайн интерьера\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-design-9",
+        "page": "design",
+        "query": "дизайн проект квартиры",
+        "frequency": 192,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"дизайн проект квартиры\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-houses-10",
+        "page": "houses",
+        "query": "ремонт коттеджей",
+        "frequency": 1,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"ремонт коттеджей\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B5%D0%B9%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-construction-11",
+        "page": "construction",
+        "query": "строительство домов",
+        "frequency": 2676,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"строительство домов\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-supervision-12",
+        "page": "supervision",
+        "query": "авторский надзор",
+        "frequency": 17,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"авторский надзор\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-smart-13",
+        "page": "smart",
+        "query": "умный дом",
+        "frequency": 348,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"умный дом\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D1%83%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%22",
+        "checkedAt": "2026-09-08"
+      },
+      {
+        "id": "research-furniture-14",
+        "page": "furniture",
+        "query": "мебель на заказ",
+        "frequency": 87,
+        "region": "Нижний Новгород (47), все устройства",
+        "period": "08.08.2026 – 06.09.2026",
+        "operator": "\"мебель на заказ\"",
+        "source": "https://wordstat.yandex.ru/?region=47&view=table&words=%22%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%22",
+        "checkedAt": "2026-09-08"
+      }
+    ]
+  },
+  "serp": {
+    "checkedAt": "2026-09-08",
+    "engine": "Yandex desktop UI, current authenticated session",
+    "region": "lr=47 (Нижний Новгород)",
+    "method": "First 10 distinct ordinary direct organic result URLs in DOM order. Ads/promo/yabs/count links and widgets excluded. Organic directories, maps, social sites included. Where fewer than 10 distinct URLs on page 1, continue page 2, deduplicate. URL equality ignores scheme, www, trailing slash, hash; preserves path and query. Host matches are separate and do not establish same intent.",
+    "limitations": "One date/session, not depersonalized tracking or Google. lr sets regional preference; IP/account can affect results. No ranking guarantee. Low overlap alone does not require separate pages.",
+    "samples": [
+      {
+        "id": "home",
+        "query": "ремонт квартир нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+          "https://profi.ru/geo-nnov/remont/brigady-po-remontu-kvartir/",
+          "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%2C%20%D0%BE%D1%84%D0%B8%D1%81%D0%BE%D0%B2%2C%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/rubricId/276",
+          "https://nn.domclick.ru/my-home/promo/remont",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%D0%BD%D1%8B%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80",
+          "https://yandex.ru/maps/47/nizhny-novgorod/category/construction_and_finishing_works/184107547/",
+          "https://zoon.ru/nn/building/type/remont_kvartir/page-2/",
+          "https://nizhniy-novgorod.lemanapro.ru/uslugi/",
+          "https://vk.ru/arthazoff",
+          "https://m2nn.ru/"
+        ]
+      },
+      {
+        "id": "capital",
+        "query": "капитальный ремонт квартиры нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47",
+          "https://yandex.ru/search/?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47&p=1"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+          "https://nn.domclick.ru/my-home/promo/remont/kapitalnyj",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%9A%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B/",
+          "https://www.avito.ru/nizhegorodskaya_oblast/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/kapitalnyy_remont_kvartiry-ASgBAgICA0SYC8CfAcQVwPUByq4P9rjzAg",
+          "https://profi.ru/geo-nnov/remont/kapitalnyj-remont-kvartir-pod-klyuch/",
+          "https://zoon.ru/nn/p-remont-kapitalnyj_remont_kvartir_i_kottedzhej/",
+          "https://astracolor.ru/kapitalnyi-remont-kvartir",
+          "https://nizhniy-novgorod.proff-remont.ru/kapitalnyj_remont/",
+          "https://alphastroy.pro/vidy-remonta/kapitalnyj-remont/",
+          "https://remontstroynn.ru/kapitalnyj-remont-kvartir/"
+        ]
+      },
+      {
+        "id": "resale",
+        "query": "ремонт вторичного жилья нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B6%D0%B8%D0%BB%D1%8C%D1%8F%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://nn.domclick.ru/my-home/promo/remont/vtorichka",
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+          "https://profi.ru/geo-nnov/remont/remont-vtorichnogo-zhilya/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/remont_vo_vtoricke-ASgBAgICA0SYC8CfAcQVwPUByq4PjqeaAw",
+          "https://zoon.ru/nn/building/type/remont_vtorichnogo_zhilya/",
+          "https://youdo.com/g-nnovgorod/remont/podkljuch/flat/mnogokvartirniydom",
+          "https://glavremont52.ru/remont-kvartiry/vo-vtorichke/",
+          "https://vk.ru/arthazoff",
+          "https://nizhniy-novgorod.proff-remont.ru/remont-vtorichki/",
+          "https://arthazoff.ru/"
+        ]
+      },
+      {
+        "id": "newbuild",
+        "query": "ремонт квартиры в новостройке нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%B2%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category/remont-i-stroitelstvo/remont-kvartir-i-domov/remont-v-novostrojke--1822",
+          "https://nn.domclick.ru/my-home/promo/remont/v-novostrojke",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B2+%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+          "https://profi.ru/geo-nnov/remont/remont-v-novostroike/",
+          "https://zoon.ru/nn/building/type/remont_v_novostrojke/",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8/",
+          "https://alphastroy.pro/remont-kvartir-v-novostrojkah/",
+          "https://remontstroynn.ru/remont-kvartir-v-novostrojke/",
+          "https://vashdom-nn.ru/remont-kvartir/tip-doma/novostroyka/",
+          "https://youdo.com/g-nnovgorod/remont/podkljuch/flat/novostroyka"
+        ]
+      },
+      {
+        "id": "cosmetic",
+        "query": "косметический ремонт квартиры нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category/remont-i-stroitelstvo/remont-kvartir-i-domov/kosmeticheskij-remont-kvartiryi--1820",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80",
+          "https://profi.ru/geo-nnov/remont/kosmeticheskij-remont/",
+          "https://nn.domclick.ru/my-home/promo/remont/kosmeticheskij",
+          "https://pro.petrovich.ru/niznij-novgorod/users/kompleksnyj-remont/kvartira/kosmeticeskij-remont-kvartiry",
+          "https://zoon.ru/nn/building/type/kosmeticheskij_remont/",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/",
+          "https://remontstroynn.ru/kosmeticheskij-remont-kvartir/",
+          "https://nizhniy-novgorod.proff-remont.ru/kosmeticheskij_remont/",
+          "https://www.yell.ru/nnovgorod/top/kosmeticheskij-remont/"
+        ]
+      },
+      {
+        "id": "design",
+        "query": "дизайн интерьера нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category/dizajneryi/dizajner-intererov--258",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%9A%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D0%B0%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/?page=2",
+          "https://2gis.ru/n_novgorod/search/%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0",
+          "https://nn.domclick.ru/my-home/promo/design-project",
+          "https://freshart-nn.ru/portfolio/",
+          "https://basicdecor.ru/interiors/designers/nizhniy-novgorod/",
+          "https://zoon.ru/nn/p-freelancer-dizajn_interera/",
+          "https://www.inmyroom.ru/novgorod/pro/s-dizayner-interiera",
+          "https://elproko.ru/"
+        ]
+      },
+      {
+        "id": "premium",
+        "query": "дизайнерский ремонт квартиры нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B8+%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2",
+          "https://nn.domclick.ru/my-home/promo/remont/dizajnerskij",
+          "https://profi.ru/geo-nnov/remont/dizajnerskij-remont/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/dizaynerskiy_remont_kvartir-ASgBAgICA0SYC8CfAcQVwPUByq4PkLnzAg",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B/",
+          "https://elementarnooo.ru/",
+          "https://arthazoff.ru/",
+          "https://zoon.ru/nn/building/type/dizajnerskij_remont_kvartiry/",
+          "https://alphastroy.pro/vidy-remonta/dizajnerskij-remont/",
+          "https://sc-remstroy.ru/"
+        ]
+      },
+      {
+        "id": "supervision",
+        "query": "авторский надзор нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://profi.ru/geo-nnov/remont/design/dizain-interiera/dizain-proekt/avtorskii-nadzor/",
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%20%D0%B2%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B5",
+          "https://zoon.ru/nn/building/type/avtorskij_nadzor_dizajnera/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/delovye_uslugi/konsultirovanie-ASgBAgICAkSYC7KfAZ4L~J8B?q=%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80",
+          "https://elproko.ru/avtorskiy-nadzor/",
+          "https://2gis.ru/n_novgorod/search/%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80",
+          "https://nnv.pgp.com.ru/services/author_supervision/",
+          "https://vashdom-nn.ru/avtorskiy-nadzor/",
+          "https://hands.ru/nizhny-novgorod/service/avtorskii-nadsor/",
+          "https://www.yell.ru/nnovgorod/top/avtorskij-nadzor-dizajnera/"
+        ]
+      },
+      {
+        "id": "houses",
+        "query": "ремонт домов нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47",
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47&p=1"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B7%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83",
+          "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+          "https://yandex.ru/maps/47/nizhny-novgorod/category/construction_and_finishing_works/184107547/",
+          "https://profi.ru/geo-nnov/remont/remont-dachnyh-domov/",
+          "https://zoon.ru/nn/building/type/remont_dachnyh_domov/",
+          "https://nn.domclick.ru/my-home/promo/remont",
+          "https://stroyterem-nn.ru/uslugi/remont-domov/",
+          "https://alphastroy.pro/remont-domov-i-kottedzhej/",
+          "https://youla.ru/nizhniy_novgorod/uslugi/remont-stroitelstvo"
+        ]
+      },
+      {
+        "id": "construction",
+        "query": "строительство коттеджей нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B5%D0%B9%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category/remont-i-stroitelstvo/stroitelstvo-domov-i-kottedzhej--1954",
+          "https://nn.domclick.ru/stroitelstvo-domov",
+          "https://2gis.ru/n_novgorod/search/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B5%D0%B9",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2/",
+          "https://zoon.ru/nn/building/type/stroitelstvo_dach_i_kottedzhej/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/stroitelstvo-ASgBAgICAUSYC6Cf8QI?q=%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE+%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+          "https://stroylider-nn.ru/catalog/kottedzhi/",
+          "https://profi.ru/geo-nnov/remont/stroitelstvo-domov/",
+          "https://nn.acpdom.ru/",
+          "https://www.kp.ru/expert/special/stroitelstvo-chastnyh-domov-v-nizhnem-novgorode/"
+        ]
+      },
+      {
+        "id": "home_variant",
+        "query": "ремонт квартир под ключ нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D1%86%D0%B5%D0%BD%D1%8B%20%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87/",
+          "https://profi.ru/geo-nnov/remont/otdelka_i_remont_kvartir_pod_kljuch/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka-ASgBAgICAUSYC8CfAQ?q=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+          "https://nn.domclick.ru/my-home/promo/remont/pod-klyuch",
+          "https://zoon.ru/nn/building/type/otdelka_pod_klyuch/",
+          "https://vk.ru/arthazoff",
+          "https://arthazoff.ru/",
+          "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%2C%20%D0%BE%D1%84%D0%B8%D1%81%D0%BE%D0%B2%2C%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/rubricId/276",
+          "https://vashdom-nn.ru/remont-kvartir/"
+        ]
+      },
+      {
+        "id": "resale_variant",
+        "query": "ремонт вторички нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B8%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+          "https://nn.domclick.ru/my-home/promo/remont/vtorichka",
+          "https://profi.ru/geo-nnov/remont/remont-vtorichnogo-zhilya/",
+          "https://zoon.ru/nn/building/type/remont_vtorichnogo_zhilya/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/remont_vo_vtoricke-ASgBAgICA0SYC8CfAcQVwPUByq4PjqeaAw",
+          "https://youdo.com/g-nnovgorod/remont/podkljuch/flat/mnogokvartirniydom",
+          "https://glavremont52.ru/remont-kvartiry/vo-vtorichke/",
+          "https://nizhniy-novgorod.proff-remont.ru/remont-vtorichki/",
+          "https://www.yell.ru/nnovgorod/top/remont-vtorichnogo-zhilya/",
+          "https://nizhniy.garantstroikompleks.ru/remont-vtorichnogo-zhilya"
+        ]
+      },
+      {
+        "id": "capital_variant",
+        "query": "капремонт квартиры нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D0%BA%D0%B0%D0%BF%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+        ],
+        "urls": [
+          "https://nn.domclick.ru/my-home/promo/remont/kapitalnyj",
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+          "https://profi.ru/geo-nnov/remont/remont-kvartir-kottedzhey/kapitalnyi-remont-kvartir-i-kottedzhei/",
+          "https://vashdom-nn.ru/remont-kvartir/tip-remonta/kapitalnyy-remont/",
+          "https://zoon.ru/nn/p-remont-kapitalnyj_remont_kvartir_i_kottedzhej/",
+          "https://glavremont52.ru/remont-kvartiry/kapitalnyy/",
+          "https://nizhniy-novgorod.proff-remont.ru/kapitalnyj_remont/",
+          "https://fkrnnov.ru/",
+          "https://alphastroy.pro/vidy-remonta/kapitalnyj-remont/",
+          "https://dzine.ru/kapitalnyj-remont-pod-klyuch"
+        ]
+      },
+      {
+        "id": "premium_variant",
+        "query": "ремонт по дизайн проекту нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47",
+          "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47&p=1"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82",
+          "https://nn.domclick.ru/my-home/promo/remont/dizajnerskij",
+          "https://profi.ru/geo-nnov/remont/dizajnerskij-remont/",
+          "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BF%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/tag/dizajn-proekt-kvartiry",
+          "https://arthazoff.ru/",
+          "https://max-dar.ru/new",
+          "https://alphastroy.pro/vidy-remonta/dizajnerskij-remont/",
+          "https://freshart-nn.ru/"
+        ]
+      },
+      {
+        "id": "design_variant",
+        "query": "дизайн проект квартиры нижний новгород",
+        "checkedAt": "2026-09-08",
+        "sources": [
+          "https://yandex.ru/search/?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47",
+          "https://yandex.ru/search/?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47&p=1"
+        ],
+        "urls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category/dizajneryi/dizajner-intererov/dizajn-proekt-interera-kvartiryi--261",
+          "https://2gis.ru/n_novgorod/search/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B",
+          "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/tag/dizajn-proekt-kvartiry",
+          "https://www.inmyroom.ru/novgorod/pro/s-dizayner-interiera",
+          "https://zoon.ru/nn/building/type/dizajn_intererov/",
+          "https://elproko.ru/",
+          "https://interior-design.su/",
+          "https://prb52.com/",
+          "https://regodesign.ru/portfolio/proekty/"
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "a": "home",
+        "b": "capital",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "home",
+        "b": "resale",
+        "commonUrls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+          "https://vk.ru/arthazoff"
+        ],
+        "urlOverlap": 2,
+        "percent": 20,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "zoon.ru",
+          "vk.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "home",
+        "b": "newbuild",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "home",
+        "b": "cosmetic",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "home",
+        "b": "design",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "home",
+        "b": "premium",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "home",
+        "b": "supervision",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "2gis.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "home",
+        "b": "houses",
+        "commonUrls": [
+          "https://nn.domclick.ru/my-home/promo/remont",
+          "https://yandex.ru/maps/47/nizhny-novgorod/category/construction_and_finishing_works/184107547/"
+        ],
+        "urlOverlap": 2,
+        "percent": 20,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "2gis.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "home",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "2gis.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "home",
+        "b": "home_variant",
+        "commonUrls": [
+          "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%2C%20%D0%BE%D1%84%D0%B8%D1%81%D0%BE%D0%B2%2C%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/rubricId/276",
+          "https://vk.ru/arthazoff"
+        ],
+        "urlOverlap": 2,
+        "percent": 20,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "2gis.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru",
+          "vk.ru"
+        ],
+        "hostOverlap": 8
+      },
+      {
+        "a": "home",
+        "b": "resale_variant",
+        "commonUrls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0"
+        ],
+        "urlOverlap": 1,
+        "percent": 10,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "home",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "home",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "2gis.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "home",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "capital",
+        "b": "resale",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "nizhniy-novgorod.proff-remont.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "capital",
+        "b": "newbuild",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "alphastroy.pro",
+          "remontstroynn.ru"
+        ],
+        "hostOverlap": 8
+      },
+      {
+        "a": "capital",
+        "b": "cosmetic",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "nizhniy-novgorod.proff-remont.ru",
+          "remontstroynn.ru"
+        ],
+        "hostOverlap": 8
+      },
+      {
+        "a": "capital",
+        "b": "design",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "yandex.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "capital",
+        "b": "premium",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "capital",
+        "b": "supervision",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "capital",
+        "b": "houses",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "capital",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "capital",
+        "b": "home_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "capital",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "nizhniy-novgorod.proff-remont.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "capital",
+        "b": "capital_variant",
+        "commonUrls": [
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+          "https://nn.domclick.ru/my-home/promo/remont/kapitalnyj",
+          "https://zoon.ru/nn/p-remont-kapitalnyj_remont_kvartir_i_kottedzhej/",
+          "https://nizhniy-novgorod.proff-remont.ru/kapitalnyj_remont/",
+          "https://alphastroy.pro/vidy-remonta/kapitalnyj-remont/"
+        ],
+        "urlOverlap": 5,
+        "percent": 50,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "zoon.ru",
+          "nizhniy-novgorod.proff-remont.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "capital",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "capital",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "resale",
+        "b": "newbuild",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru",
+          "youdo.com"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "resale",
+        "b": "cosmetic",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru",
+          "nizhniy-novgorod.proff-remont.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "resale",
+        "b": "design",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "resale",
+        "b": "premium",
+        "commonUrls": [
+          "https://arthazoff.ru/"
+        ],
+        "urlOverlap": 1,
+        "percent": 10,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru",
+          "arthazoff.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "resale",
+        "b": "supervision",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "resale",
+        "b": "houses",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "resale",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "resale",
+        "b": "home_variant",
+        "commonUrls": [
+          "https://vk.ru/arthazoff",
+          "https://arthazoff.ru/"
+        ],
+        "urlOverlap": 2,
+        "percent": 20,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru",
+          "vk.ru",
+          "arthazoff.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "resale",
+        "b": "resale_variant",
+        "commonUrls": [
+          "https://nn.domclick.ru/my-home/promo/remont/vtorichka",
+          "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+          "https://profi.ru/geo-nnov/remont/remont-vtorichnogo-zhilya/",
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/remont_vo_vtoricke-ASgBAgICA0SYC8CfAcQVwPUByq4PjqeaAw",
+          "https://zoon.ru/nn/building/type/remont_vtorichnogo_zhilya/",
+          "https://youdo.com/g-nnovgorod/remont/podkljuch/flat/mnogokvartirniydom",
+          "https://glavremont52.ru/remont-kvartiry/vo-vtorichke/",
+          "https://nizhniy-novgorod.proff-remont.ru/remont-vtorichki/"
+        ],
+        "urlOverlap": 8,
+        "percent": 80,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru",
+          "youdo.com",
+          "glavremont52.ru",
+          "nizhniy-novgorod.proff-remont.ru"
+        ],
+        "hostOverlap": 8
+      },
+      {
+        "a": "resale",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "zoon.ru",
+          "glavremont52.ru",
+          "nizhniy-novgorod.proff-remont.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "resale",
+        "b": "premium_variant",
+        "commonUrls": [
+          "https://arthazoff.ru/"
+        ],
+        "urlOverlap": 1,
+        "percent": 10,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "arthazoff.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "resale",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 3
+      },
+      {
+        "a": "newbuild",
+        "b": "cosmetic",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "yandex.ru",
+          "remontstroynn.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "newbuild",
+        "b": "design",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "newbuild",
+        "b": "premium",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "yandex.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "newbuild",
+        "b": "supervision",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "vashdom-nn.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "newbuild",
+        "b": "houses",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "yandex.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "newbuild",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "newbuild",
+        "b": "home_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "yandex.ru",
+          "vashdom-nn.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "newbuild",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "youdo.com"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "newbuild",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "zoon.ru",
+          "alphastroy.pro",
+          "vashdom-nn.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "newbuild",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "avito.ru",
+          "profi.ru",
+          "yandex.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "newbuild",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "cosmetic",
+        "b": "design",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "cosmetic",
+        "b": "premium",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "cosmetic",
+        "b": "supervision",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "yell.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "cosmetic",
+        "b": "houses",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "cosmetic",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "cosmetic",
+        "b": "home_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "cosmetic",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "nizhniy-novgorod.proff-remont.ru",
+          "yell.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "cosmetic",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "nizhniy-novgorod.proff-remont.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "cosmetic",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "cosmetic",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "zoon.ru",
+          "yandex.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "design",
+        "b": "premium",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "design",
+        "b": "supervision",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "zoon.ru",
+          "elproko.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "design",
+        "b": "houses",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "design",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "design",
+        "b": "home_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "design",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "design",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 3
+      },
+      {
+        "a": "design",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "freshart-nn.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "design",
+        "b": "design_variant",
+        "commonUrls": [
+          "https://www.inmyroom.ru/novgorod/pro/s-dizayner-interiera",
+          "https://elproko.ru/"
+        ],
+        "urlOverlap": 2,
+        "percent": 20,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "zoon.ru",
+          "inmyroom.ru",
+          "elproko.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "premium",
+        "b": "supervision",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "premium",
+        "b": "houses",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "premium",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "premium",
+        "b": "home_variant",
+        "commonUrls": [
+          "https://arthazoff.ru/"
+        ],
+        "urlOverlap": 1,
+        "percent": 10,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "avito.ru",
+          "yandex.ru",
+          "arthazoff.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "premium",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "avito.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "premium",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "zoon.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "premium",
+        "b": "premium_variant",
+        "commonUrls": [
+          "https://nn.domclick.ru/my-home/promo/remont/dizajnerskij",
+          "https://profi.ru/geo-nnov/remont/dizajnerskij-remont/",
+          "https://arthazoff.ru/",
+          "https://alphastroy.pro/vidy-remonta/dizajnerskij-remont/"
+        ],
+        "urlOverlap": 4,
+        "percent": 40,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "avito.ru",
+          "yandex.ru",
+          "arthazoff.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "premium",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "supervision",
+        "b": "houses",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "profi.ru",
+          "uslugi.yandex.ru",
+          "zoon.ru",
+          "avito.ru",
+          "2gis.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "supervision",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "profi.ru",
+          "uslugi.yandex.ru",
+          "zoon.ru",
+          "avito.ru",
+          "2gis.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "supervision",
+        "b": "home_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "profi.ru",
+          "uslugi.yandex.ru",
+          "zoon.ru",
+          "avito.ru",
+          "2gis.ru",
+          "vashdom-nn.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "supervision",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "profi.ru",
+          "uslugi.yandex.ru",
+          "zoon.ru",
+          "avito.ru",
+          "yell.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "supervision",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "profi.ru",
+          "uslugi.yandex.ru",
+          "zoon.ru",
+          "vashdom-nn.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "supervision",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "profi.ru",
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "2gis.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "supervision",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "zoon.ru",
+          "avito.ru",
+          "elproko.ru",
+          "2gis.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "houses",
+        "b": "construction",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "yandex.ru",
+          "profi.ru",
+          "zoon.ru",
+          "nn.domclick.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "houses",
+        "b": "home_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "yandex.ru",
+          "profi.ru",
+          "zoon.ru",
+          "nn.domclick.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "houses",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "avito.ru",
+          "profi.ru",
+          "zoon.ru",
+          "nn.domclick.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "houses",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "zoon.ru",
+          "nn.domclick.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "houses",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "houses",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "avito.ru",
+          "yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "construction",
+        "b": "home_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "2gis.ru",
+          "yandex.ru",
+          "zoon.ru",
+          "avito.ru",
+          "profi.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "construction",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "avito.ru",
+          "profi.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "construction",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "profi.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "construction",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "2gis.ru",
+          "yandex.ru",
+          "avito.ru",
+          "profi.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "construction",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "yandex.ru",
+          "zoon.ru",
+          "avito.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "home_variant",
+        "b": "resale_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "home_variant",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "nn.domclick.ru",
+          "zoon.ru",
+          "vashdom-nn.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "home_variant",
+        "b": "premium_variant",
+        "commonUrls": [
+          "https://arthazoff.ru/"
+        ],
+        "urlOverlap": 1,
+        "percent": 10,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "profi.ru",
+          "avito.ru",
+          "nn.domclick.ru",
+          "arthazoff.ru",
+          "2gis.ru"
+        ],
+        "hostOverlap": 7
+      },
+      {
+        "a": "home_variant",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "yandex.ru",
+          "avito.ru",
+          "zoon.ru",
+          "2gis.ru"
+        ],
+        "hostOverlap": 5
+      },
+      {
+        "a": "resale_variant",
+        "b": "capital_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "zoon.ru",
+          "glavremont52.ru",
+          "nizhniy-novgorod.proff-remont.ru"
+        ],
+        "hostOverlap": 6
+      },
+      {
+        "a": "resale_variant",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "nn.domclick.ru",
+          "profi.ru",
+          "avito.ru"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "resale_variant",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "zoon.ru",
+          "avito.ru"
+        ],
+        "hostOverlap": 3
+      },
+      {
+        "a": "capital_variant",
+        "b": "premium_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "nn.domclick.ru",
+          "uslugi.yandex.ru",
+          "profi.ru",
+          "alphastroy.pro"
+        ],
+        "hostOverlap": 4
+      },
+      {
+        "a": "capital_variant",
+        "b": "design_variant",
+        "commonUrls": [],
+        "urlOverlap": 0,
+        "percent": 0,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "zoon.ru"
+        ],
+        "hostOverlap": 2
+      },
+      {
+        "a": "premium_variant",
+        "b": "design_variant",
+        "commonUrls": [
+          "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/tag/dizajn-proekt-kvartiry"
+        ],
+        "urlOverlap": 1,
+        "percent": 10,
+        "commonHosts": [
+          "uslugi.yandex.ru",
+          "2gis.ru",
+          "yandex.ru",
+          "avito.ru"
+        ],
+        "hostOverlap": 4
+      }
+    ]
+  },
+  "verification": {
+    "wordstatHash": "317bc8f4",
+    "serpHash": "5e03e475",
+    "method": "FNV-1a over UTF-16 code units; compared with the same ordered fields in the persistent browser capture. Evidence integrity check, not a cryptographic signature."
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+data/
+backups/
+.env
+*.log
+_redesign/*audit.json
+_redesign/page*.txt
+_redesign/concept-check.js
+artifacts/

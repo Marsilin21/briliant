@@ -1,0 +1,45 @@
+name: brilliant-monolit
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 4180
+      DATA_DIR: /app/data
+      BACKUP_DIR: /app/data/backups
+      SITE_ORIGIN: https://${SITE_DOMAIN:-brilliant-monolit.ru}
+      ALLOWED_ORIGINS: https://${SITE_DOMAIN:-brilliant-monolit.ru}
+      COOKIE_SECURE: "true"
+      TRUST_PROXY: "1"
+      INIT_ADMIN_LOGIN: ${INIT_ADMIN_LOGIN:-admin}
+      INIT_ADMIN_PASSWORD: ${INIT_ADMIN_PASSWORD:?Set a unique initial admin password in .env}
+    volumes:
+      - monolit_data:/app/data
+    expose:
+      - "4180"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+  web:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    environment:
+      SITE_DOMAIN: ${SITE_DOMAIN:-brilliant-monolit.ru}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+volumes:
+  monolit_data:
+  caddy_data:
+  caddy_config:

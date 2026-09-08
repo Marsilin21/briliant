@@ -1,0 +1,1995 @@
+{
+  "checkedAt": "2026-09-08",
+  "engine": "Yandex desktop UI, current authenticated session",
+  "region": "lr=47 (Нижний Новгород)",
+  "method": "First 10 distinct ordinary direct organic result URLs in DOM order. Ads/promo/yabs/count links and widgets excluded. Organic directories, maps, social sites included. Where fewer than 10 distinct URLs on page 1, continue page 2, deduplicate. URL equality ignores scheme, www, trailing slash, hash; preserves path and query. Host matches are separate and do not establish same intent.",
+  "limitations": "One date/session, not depersonalized tracking or Google. lr sets regional preference; IP/account can affect results. No ranking guarantee. Low overlap alone does not require separate pages.",
+  "samples": [
+    {
+      "id": "home",
+      "query": "ремонт квартир нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+        "https://profi.ru/geo-nnov/remont/brigady-po-remontu-kvartir/",
+        "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%2C%20%D0%BE%D1%84%D0%B8%D1%81%D0%BE%D0%B2%2C%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/rubricId/276",
+        "https://nn.domclick.ru/my-home/promo/remont",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%D0%BD%D1%8B%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80",
+        "https://yandex.ru/maps/47/nizhny-novgorod/category/construction_and_finishing_works/184107547/",
+        "https://zoon.ru/nn/building/type/remont_kvartir/page-2/",
+        "https://nizhniy-novgorod.lemanapro.ru/uslugi/",
+        "https://vk.ru/arthazoff",
+        "https://m2nn.ru/"
+      ]
+    },
+    {
+      "id": "capital",
+      "query": "капитальный ремонт квартиры нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47",
+        "https://yandex.ru/search/?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47&p=1"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+        "https://nn.domclick.ru/my-home/promo/remont/kapitalnyj",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%9A%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B/",
+        "https://www.avito.ru/nizhegorodskaya_oblast/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/kapitalnyy_remont_kvartiry-ASgBAgICA0SYC8CfAcQVwPUByq4P9rjzAg",
+        "https://profi.ru/geo-nnov/remont/kapitalnyj-remont-kvartir-pod-klyuch/",
+        "https://zoon.ru/nn/p-remont-kapitalnyj_remont_kvartir_i_kottedzhej/",
+        "https://astracolor.ru/kapitalnyi-remont-kvartir",
+        "https://nizhniy-novgorod.proff-remont.ru/kapitalnyj_remont/",
+        "https://alphastroy.pro/vidy-remonta/kapitalnyj-remont/",
+        "https://remontstroynn.ru/kapitalnyj-remont-kvartir/"
+      ]
+    },
+    {
+      "id": "resale",
+      "query": "ремонт вторичного жилья нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B6%D0%B8%D0%BB%D1%8C%D1%8F%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://nn.domclick.ru/my-home/promo/remont/vtorichka",
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+        "https://profi.ru/geo-nnov/remont/remont-vtorichnogo-zhilya/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/remont_vo_vtoricke-ASgBAgICA0SYC8CfAcQVwPUByq4PjqeaAw",
+        "https://zoon.ru/nn/building/type/remont_vtorichnogo_zhilya/",
+        "https://youdo.com/g-nnovgorod/remont/podkljuch/flat/mnogokvartirniydom",
+        "https://glavremont52.ru/remont-kvartiry/vo-vtorichke/",
+        "https://vk.ru/arthazoff",
+        "https://nizhniy-novgorod.proff-remont.ru/remont-vtorichki/",
+        "https://arthazoff.ru/"
+      ]
+    },
+    {
+      "id": "newbuild",
+      "query": "ремонт квартиры в новостройке нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%B2%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category/remont-i-stroitelstvo/remont-kvartir-i-domov/remont-v-novostrojke--1822",
+        "https://nn.domclick.ru/my-home/promo/remont/v-novostrojke",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B2+%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+        "https://profi.ru/geo-nnov/remont/remont-v-novostroike/",
+        "https://zoon.ru/nn/building/type/remont_v_novostrojke/",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8/",
+        "https://alphastroy.pro/remont-kvartir-v-novostrojkah/",
+        "https://remontstroynn.ru/remont-kvartir-v-novostrojke/",
+        "https://vashdom-nn.ru/remont-kvartir/tip-doma/novostroyka/",
+        "https://youdo.com/g-nnovgorod/remont/podkljuch/flat/novostroyka"
+      ]
+    },
+    {
+      "id": "cosmetic",
+      "query": "косметический ремонт квартиры нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category/remont-i-stroitelstvo/remont-kvartir-i-domov/kosmeticheskij-remont-kvartiryi--1820",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80",
+        "https://profi.ru/geo-nnov/remont/kosmeticheskij-remont/",
+        "https://nn.domclick.ru/my-home/promo/remont/kosmeticheskij",
+        "https://pro.petrovich.ru/niznij-novgorod/users/kompleksnyj-remont/kvartira/kosmeticeskij-remont-kvartiry",
+        "https://zoon.ru/nn/building/type/kosmeticheskij_remont/",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/",
+        "https://remontstroynn.ru/kosmeticheskij-remont-kvartir/",
+        "https://nizhniy-novgorod.proff-remont.ru/kosmeticheskij_remont/",
+        "https://www.yell.ru/nnovgorod/top/kosmeticheskij-remont/"
+      ]
+    },
+    {
+      "id": "design",
+      "query": "дизайн интерьера нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category/dizajneryi/dizajner-intererov--258",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%9A%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D0%B0%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/?page=2",
+        "https://2gis.ru/n_novgorod/search/%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0",
+        "https://nn.domclick.ru/my-home/promo/design-project",
+        "https://freshart-nn.ru/portfolio/",
+        "https://basicdecor.ru/interiors/designers/nizhniy-novgorod/",
+        "https://zoon.ru/nn/p-freelancer-dizajn_interera/",
+        "https://www.inmyroom.ru/novgorod/pro/s-dizayner-interiera",
+        "https://elproko.ru/"
+      ]
+    },
+    {
+      "id": "premium",
+      "query": "дизайнерский ремонт квартиры нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B8+%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2",
+        "https://nn.domclick.ru/my-home/promo/remont/dizajnerskij",
+        "https://profi.ru/geo-nnov/remont/dizajnerskij-remont/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/dizaynerskiy_remont_kvartir-ASgBAgICA0SYC8CfAcQVwPUByq4PkLnzAg",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B/",
+        "https://elementarnooo.ru/",
+        "https://arthazoff.ru/",
+        "https://zoon.ru/nn/building/type/dizajnerskij_remont_kvartiry/",
+        "https://alphastroy.pro/vidy-remonta/dizajnerskij-remont/",
+        "https://sc-remstroy.ru/"
+      ]
+    },
+    {
+      "id": "supervision",
+      "query": "авторский надзор нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://profi.ru/geo-nnov/remont/design/dizain-interiera/dizain-proekt/avtorskii-nadzor/",
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%20%D0%B2%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B5",
+        "https://zoon.ru/nn/building/type/avtorskij_nadzor_dizajnera/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/delovye_uslugi/konsultirovanie-ASgBAgICAkSYC7KfAZ4L~J8B?q=%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80",
+        "https://elproko.ru/avtorskiy-nadzor/",
+        "https://2gis.ru/n_novgorod/search/%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80",
+        "https://nnv.pgp.com.ru/services/author_supervision/",
+        "https://vashdom-nn.ru/avtorskiy-nadzor/",
+        "https://hands.ru/nizhny-novgorod/service/avtorskii-nadsor/",
+        "https://www.yell.ru/nnovgorod/top/avtorskij-nadzor-dizajnera/"
+      ]
+    },
+    {
+      "id": "houses",
+      "query": "ремонт домов нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47",
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47&p=1"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B7%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83",
+        "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug?q=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+        "https://yandex.ru/maps/47/nizhny-novgorod/category/construction_and_finishing_works/184107547/",
+        "https://profi.ru/geo-nnov/remont/remont-dachnyh-domov/",
+        "https://zoon.ru/nn/building/type/remont_dachnyh_domov/",
+        "https://nn.domclick.ru/my-home/promo/remont",
+        "https://stroyterem-nn.ru/uslugi/remont-domov/",
+        "https://alphastroy.pro/remont-domov-i-kottedzhej/",
+        "https://youla.ru/nizhniy_novgorod/uslugi/remont-stroitelstvo"
+      ]
+    },
+    {
+      "id": "construction",
+      "query": "строительство коттеджей нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B5%D0%B9%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category/remont-i-stroitelstvo/stroitelstvo-domov-i-kottedzhej--1954",
+        "https://nn.domclick.ru/stroitelstvo-domov",
+        "https://2gis.ru/n_novgorod/search/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%BA%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6%D0%B5%D0%B9",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2/",
+        "https://zoon.ru/nn/building/type/stroitelstvo_dach_i_kottedzhej/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/stroitelstvo-ASgBAgICAUSYC6Cf8QI?q=%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE+%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+        "https://stroylider-nn.ru/catalog/kottedzhi/",
+        "https://profi.ru/geo-nnov/remont/stroitelstvo-domov/",
+        "https://nn.acpdom.ru/",
+        "https://www.kp.ru/expert/special/stroitelstvo-chastnyh-domov-v-nizhnem-novgorode/"
+      ]
+    },
+    {
+      "id": "home_variant",
+      "query": "ремонт квартир под ключ нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87%20%D1%86%D0%B5%D0%BD%D1%8B%20%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%D0%B4%20%D0%BA%D0%BB%D1%8E%D1%87/",
+        "https://profi.ru/geo-nnov/remont/otdelka_i_remont_kvartir_pod_kljuch/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka-ASgBAgICAUSYC8CfAQ?q=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+        "https://nn.domclick.ru/my-home/promo/remont/pod-klyuch",
+        "https://zoon.ru/nn/building/type/otdelka_pod_klyuch/",
+        "https://vk.ru/arthazoff",
+        "https://arthazoff.ru/",
+        "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%2C%20%D0%BE%D1%84%D0%B8%D1%81%D0%BE%D0%B2%2C%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/rubricId/276",
+        "https://vashdom-nn.ru/remont-kvartir/"
+      ]
+    },
+    {
+      "id": "resale_variant",
+      "query": "ремонт вторички нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B8%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+        "https://nn.domclick.ru/my-home/promo/remont/vtorichka",
+        "https://profi.ru/geo-nnov/remont/remont-vtorichnogo-zhilya/",
+        "https://zoon.ru/nn/building/type/remont_vtorichnogo_zhilya/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/remont_vo_vtoricke-ASgBAgICA0SYC8CfAcQVwPUByq4PjqeaAw",
+        "https://youdo.com/g-nnovgorod/remont/podkljuch/flat/mnogokvartirniydom",
+        "https://glavremont52.ru/remont-kvartiry/vo-vtorichke/",
+        "https://nizhniy-novgorod.proff-remont.ru/remont-vtorichki/",
+        "https://www.yell.ru/nnovgorod/top/remont-vtorichnogo-zhilya/",
+        "https://nizhniy.garantstroikompleks.ru/remont-vtorichnogo-zhilya"
+      ]
+    },
+    {
+      "id": "capital_variant",
+      "query": "капремонт квартиры нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D0%BA%D0%B0%D0%BF%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47"
+      ],
+      "urls": [
+        "https://nn.domclick.ru/my-home/promo/remont/kapitalnyj",
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+        "https://profi.ru/geo-nnov/remont/remont-kvartir-kottedzhey/kapitalnyi-remont-kvartir-i-kottedzhei/",
+        "https://vashdom-nn.ru/remont-kvartir/tip-remonta/kapitalnyy-remont/",
+        "https://zoon.ru/nn/p-remont-kapitalnyj_remont_kvartir_i_kottedzhej/",
+        "https://glavremont52.ru/remont-kvartiry/kapitalnyy/",
+        "https://nizhniy-novgorod.proff-remont.ru/kapitalnyj_remont/",
+        "https://fkrnnov.ru/",
+        "https://alphastroy.pro/vidy-remonta/kapitalnyj-remont/",
+        "https://dzine.ru/kapitalnyj-remont-pod-klyuch"
+      ]
+    },
+    {
+      "id": "premium_variant",
+      "query": "ремонт по дизайн проекту нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47",
+        "https://yandex.ru/search/?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BF%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47&p=1"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82",
+        "https://nn.domclick.ru/my-home/promo/remont/dizajnerskij",
+        "https://profi.ru/geo-nnov/remont/dizajnerskij-remont/",
+        "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%20%D0%BF%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/tag/dizajn-proekt-kvartiry",
+        "https://arthazoff.ru/",
+        "https://max-dar.ru/new",
+        "https://alphastroy.pro/vidy-remonta/dizajnerskij-remont/",
+        "https://freshart-nn.ru/"
+      ]
+    },
+    {
+      "id": "design_variant",
+      "query": "дизайн проект квартиры нижний новгород",
+      "checkedAt": "2026-09-08",
+      "sources": [
+        "https://yandex.ru/search/?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47",
+        "https://yandex.ru/search/?text=%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&lr=47&p=1"
+      ],
+      "urls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category/dizajneryi/dizajner-intererov/dizajn-proekt-interera-kvartiryi--261",
+        "https://2gis.ru/n_novgorod/search/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B",
+        "https://yandex.ru/maps/47/nizhny-novgorod/search/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/tag/dizajn-proekt-kvartiry",
+        "https://www.inmyroom.ru/novgorod/pro/s-dizayner-interiera",
+        "https://zoon.ru/nn/building/type/dizajn_intererov/",
+        "https://elproko.ru/",
+        "https://interior-design.su/",
+        "https://prb52.com/",
+        "https://regodesign.ru/portfolio/proekty/"
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "a": "home",
+      "b": "capital",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "home",
+      "b": "resale",
+      "commonUrls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+        "https://vk.ru/arthazoff"
+      ],
+      "urlOverlap": 2,
+      "percent": 20,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "zoon.ru",
+        "vk.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "home",
+      "b": "newbuild",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "home",
+      "b": "cosmetic",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "home",
+      "b": "design",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "home",
+      "b": "premium",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "home",
+      "b": "supervision",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "2gis.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "home",
+      "b": "houses",
+      "commonUrls": [
+        "https://nn.domclick.ru/my-home/promo/remont",
+        "https://yandex.ru/maps/47/nizhny-novgorod/category/construction_and_finishing_works/184107547/"
+      ],
+      "urlOverlap": 2,
+      "percent": 20,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "2gis.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "home",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "2gis.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "home",
+      "b": "home_variant",
+      "commonUrls": [
+        "https://2gis.ru/n_novgorod/search/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%20%D0%B8%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%2C%20%D0%BE%D1%84%D0%B8%D1%81%D0%BE%D0%B2%2C%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/rubricId/276",
+        "https://vk.ru/arthazoff"
+      ],
+      "urlOverlap": 2,
+      "percent": 20,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "2gis.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru",
+        "vk.ru"
+      ],
+      "hostOverlap": 8
+    },
+    {
+      "a": "home",
+      "b": "resale_variant",
+      "commonUrls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0"
+      ],
+      "urlOverlap": 1,
+      "percent": 10,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "home",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "home",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "2gis.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "home",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "capital",
+      "b": "resale",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "nizhniy-novgorod.proff-remont.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "capital",
+      "b": "newbuild",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "alphastroy.pro",
+        "remontstroynn.ru"
+      ],
+      "hostOverlap": 8
+    },
+    {
+      "a": "capital",
+      "b": "cosmetic",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "nizhniy-novgorod.proff-remont.ru",
+        "remontstroynn.ru"
+      ],
+      "hostOverlap": 8
+    },
+    {
+      "a": "capital",
+      "b": "design",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "yandex.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "capital",
+      "b": "premium",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "capital",
+      "b": "supervision",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "capital",
+      "b": "houses",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "capital",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "capital",
+      "b": "home_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "capital",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "nizhniy-novgorod.proff-remont.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "capital",
+      "b": "capital_variant",
+      "commonUrls": [
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87",
+        "https://nn.domclick.ru/my-home/promo/remont/kapitalnyj",
+        "https://zoon.ru/nn/p-remont-kapitalnyj_remont_kvartir_i_kottedzhej/",
+        "https://nizhniy-novgorod.proff-remont.ru/kapitalnyj_remont/",
+        "https://alphastroy.pro/vidy-remonta/kapitalnyj-remont/"
+      ],
+      "urlOverlap": 5,
+      "percent": 50,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "zoon.ru",
+        "nizhniy-novgorod.proff-remont.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "capital",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "capital",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "resale",
+      "b": "newbuild",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru",
+        "youdo.com"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "resale",
+      "b": "cosmetic",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru",
+        "nizhniy-novgorod.proff-remont.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "resale",
+      "b": "design",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "resale",
+      "b": "premium",
+      "commonUrls": [
+        "https://arthazoff.ru/"
+      ],
+      "urlOverlap": 1,
+      "percent": 10,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru",
+        "arthazoff.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "resale",
+      "b": "supervision",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "resale",
+      "b": "houses",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "resale",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "resale",
+      "b": "home_variant",
+      "commonUrls": [
+        "https://vk.ru/arthazoff",
+        "https://arthazoff.ru/"
+      ],
+      "urlOverlap": 2,
+      "percent": 20,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru",
+        "vk.ru",
+        "arthazoff.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "resale",
+      "b": "resale_variant",
+      "commonUrls": [
+        "https://nn.domclick.ru/my-home/promo/remont/vtorichka",
+        "https://uslugi.yandex.ru/47-nizhny-novgorod/category?text=%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%BD%D0%B5%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%B4+%D0%BA%D0%BB%D1%8E%D1%87+%D1%86%D0%B5%D0%BD%D1%8B+%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BA%D0%B0",
+        "https://profi.ru/geo-nnov/remont/remont-vtorichnogo-zhilya/",
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/remont_i_otdelka/remont_kvartir_i_domov_pod_klyuch/remont_vo_vtoricke-ASgBAgICA0SYC8CfAcQVwPUByq4PjqeaAw",
+        "https://zoon.ru/nn/building/type/remont_vtorichnogo_zhilya/",
+        "https://youdo.com/g-nnovgorod/remont/podkljuch/flat/mnogokvartirniydom",
+        "https://glavremont52.ru/remont-kvartiry/vo-vtorichke/",
+        "https://nizhniy-novgorod.proff-remont.ru/remont-vtorichki/"
+      ],
+      "urlOverlap": 8,
+      "percent": 80,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru",
+        "youdo.com",
+        "glavremont52.ru",
+        "nizhniy-novgorod.proff-remont.ru"
+      ],
+      "hostOverlap": 8
+    },
+    {
+      "a": "resale",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "zoon.ru",
+        "glavremont52.ru",
+        "nizhniy-novgorod.proff-remont.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "resale",
+      "b": "premium_variant",
+      "commonUrls": [
+        "https://arthazoff.ru/"
+      ],
+      "urlOverlap": 1,
+      "percent": 10,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "arthazoff.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "resale",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 3
+    },
+    {
+      "a": "newbuild",
+      "b": "cosmetic",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "yandex.ru",
+        "remontstroynn.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "newbuild",
+      "b": "design",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "newbuild",
+      "b": "premium",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "yandex.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "newbuild",
+      "b": "supervision",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "vashdom-nn.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "newbuild",
+      "b": "houses",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "yandex.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "newbuild",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "newbuild",
+      "b": "home_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "yandex.ru",
+        "vashdom-nn.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "newbuild",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "youdo.com"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "newbuild",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "zoon.ru",
+        "alphastroy.pro",
+        "vashdom-nn.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "newbuild",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "avito.ru",
+        "profi.ru",
+        "yandex.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "newbuild",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "cosmetic",
+      "b": "design",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "cosmetic",
+      "b": "premium",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "cosmetic",
+      "b": "supervision",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "yell.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "cosmetic",
+      "b": "houses",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "cosmetic",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "cosmetic",
+      "b": "home_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "cosmetic",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "nizhniy-novgorod.proff-remont.ru",
+        "yell.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "cosmetic",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "nizhniy-novgorod.proff-remont.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "cosmetic",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "cosmetic",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "zoon.ru",
+        "yandex.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "design",
+      "b": "premium",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "design",
+      "b": "supervision",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "zoon.ru",
+        "elproko.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "design",
+      "b": "houses",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "design",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "design",
+      "b": "home_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "design",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "design",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 3
+    },
+    {
+      "a": "design",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "freshart-nn.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "design",
+      "b": "design_variant",
+      "commonUrls": [
+        "https://www.inmyroom.ru/novgorod/pro/s-dizayner-interiera",
+        "https://elproko.ru/"
+      ],
+      "urlOverlap": 2,
+      "percent": 20,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "zoon.ru",
+        "inmyroom.ru",
+        "elproko.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "premium",
+      "b": "supervision",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "premium",
+      "b": "houses",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "premium",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "premium",
+      "b": "home_variant",
+      "commonUrls": [
+        "https://arthazoff.ru/"
+      ],
+      "urlOverlap": 1,
+      "percent": 10,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "avito.ru",
+        "yandex.ru",
+        "arthazoff.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "premium",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "avito.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "premium",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "zoon.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "premium",
+      "b": "premium_variant",
+      "commonUrls": [
+        "https://nn.domclick.ru/my-home/promo/remont/dizajnerskij",
+        "https://profi.ru/geo-nnov/remont/dizajnerskij-remont/",
+        "https://arthazoff.ru/",
+        "https://alphastroy.pro/vidy-remonta/dizajnerskij-remont/"
+      ],
+      "urlOverlap": 4,
+      "percent": 40,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "avito.ru",
+        "yandex.ru",
+        "arthazoff.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "premium",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "supervision",
+      "b": "houses",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "profi.ru",
+        "uslugi.yandex.ru",
+        "zoon.ru",
+        "avito.ru",
+        "2gis.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "supervision",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "profi.ru",
+        "uslugi.yandex.ru",
+        "zoon.ru",
+        "avito.ru",
+        "2gis.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "supervision",
+      "b": "home_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "profi.ru",
+        "uslugi.yandex.ru",
+        "zoon.ru",
+        "avito.ru",
+        "2gis.ru",
+        "vashdom-nn.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "supervision",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "profi.ru",
+        "uslugi.yandex.ru",
+        "zoon.ru",
+        "avito.ru",
+        "yell.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "supervision",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "profi.ru",
+        "uslugi.yandex.ru",
+        "zoon.ru",
+        "vashdom-nn.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "supervision",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "profi.ru",
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "2gis.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "supervision",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "zoon.ru",
+        "avito.ru",
+        "elproko.ru",
+        "2gis.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "houses",
+      "b": "construction",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "yandex.ru",
+        "profi.ru",
+        "zoon.ru",
+        "nn.domclick.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "houses",
+      "b": "home_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "yandex.ru",
+        "profi.ru",
+        "zoon.ru",
+        "nn.domclick.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "houses",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "avito.ru",
+        "profi.ru",
+        "zoon.ru",
+        "nn.domclick.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "houses",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "zoon.ru",
+        "nn.domclick.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "houses",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "houses",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "avito.ru",
+        "yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "construction",
+      "b": "home_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "2gis.ru",
+        "yandex.ru",
+        "zoon.ru",
+        "avito.ru",
+        "profi.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "construction",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "avito.ru",
+        "profi.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "construction",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "profi.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "construction",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "2gis.ru",
+        "yandex.ru",
+        "avito.ru",
+        "profi.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "construction",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "yandex.ru",
+        "zoon.ru",
+        "avito.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "home_variant",
+      "b": "resale_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "home_variant",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "nn.domclick.ru",
+        "zoon.ru",
+        "vashdom-nn.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "home_variant",
+      "b": "premium_variant",
+      "commonUrls": [
+        "https://arthazoff.ru/"
+      ],
+      "urlOverlap": 1,
+      "percent": 10,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "profi.ru",
+        "avito.ru",
+        "nn.domclick.ru",
+        "arthazoff.ru",
+        "2gis.ru"
+      ],
+      "hostOverlap": 7
+    },
+    {
+      "a": "home_variant",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "yandex.ru",
+        "avito.ru",
+        "zoon.ru",
+        "2gis.ru"
+      ],
+      "hostOverlap": 5
+    },
+    {
+      "a": "resale_variant",
+      "b": "capital_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "zoon.ru",
+        "glavremont52.ru",
+        "nizhniy-novgorod.proff-remont.ru"
+      ],
+      "hostOverlap": 6
+    },
+    {
+      "a": "resale_variant",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "nn.domclick.ru",
+        "profi.ru",
+        "avito.ru"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "resale_variant",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "zoon.ru",
+        "avito.ru"
+      ],
+      "hostOverlap": 3
+    },
+    {
+      "a": "capital_variant",
+      "b": "premium_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "nn.domclick.ru",
+        "uslugi.yandex.ru",
+        "profi.ru",
+        "alphastroy.pro"
+      ],
+      "hostOverlap": 4
+    },
+    {
+      "a": "capital_variant",
+      "b": "design_variant",
+      "commonUrls": [],
+      "urlOverlap": 0,
+      "percent": 0,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "zoon.ru"
+      ],
+      "hostOverlap": 2
+    },
+    {
+      "a": "premium_variant",
+      "b": "design_variant",
+      "commonUrls": [
+        "https://www.avito.ru/nizhniy_novgorod/predlozheniya_uslug/tag/dizajn-proekt-kvartiry"
+      ],
+      "urlOverlap": 1,
+      "percent": 10,
+      "commonHosts": [
+        "uslugi.yandex.ru",
+        "2gis.ru",
+        "yandex.ru",
+        "avito.ru"
+      ],
+      "hostOverlap": 4
+    }
+  ]
+}
